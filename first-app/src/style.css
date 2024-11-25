@@ -8,3 +8,34 @@ body {
     background-color: black;
     color: White;
 }
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+main{
+    padding: 14px 10%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer {
+    text-align: center;
+}

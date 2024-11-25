@@ -1,10 +1,11 @@
 import Header from "./Header"
 import Footer from './Footer'
+import Main from "./Main"
 function App(){
     return(
         <>
-         <Header />
-         <h1>Hello World</h1>
+         <Header/>
+         <Main />
          <Footer />
         </>
     )

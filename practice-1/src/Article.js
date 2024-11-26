@@ -1,8 +1,9 @@
-export default function Article(){
+export default function Article({title , content , children}){
     return (
         <div className={'article'}>
-            <h3>This A post Title</h3>
-            <p>this is a paragraphe</p>
+            <h3>{title}</h3>
+            <p>{content}</p>
+            {children}
         </div>
     )
 }

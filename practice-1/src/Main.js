@@ -1,5 +1,7 @@
-import Article from './Article'
+import Article from './Article' 
+let Lis = ["Mohamed" , "Issam" , "Adam"]
 function Main (){
+   
     return (
         <main>
             <Article title="What is React js" content="React is a Js framework">
@@ -35,5 +37,6 @@ function Main (){
         </main>
     )
 }
+
 
 export default Main

@@ -1,9 +1,13 @@
-function TagButton (){
+function TagButton ({tagTitle}){
+    if(tagTitle == null || tagTitle ==""){
+        return null
+    }
     return (
         <button className ={'tag-btn'}>
-            TagButton
+            {tagTitle}
         </button>
     )
+    
 }
 
 export default TagButton

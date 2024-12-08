@@ -26,6 +26,8 @@ aside {
     padding: 10px;
     border: 2px solid blue ;
     height: max-content;  
+}
+.buttons {
     display: flex;
     justify-content: center;
     gap: 5px;
